@@ -40,7 +40,7 @@ int firstBadVersionGreedy(int n) {
 // Binary search approach 
 // Think about it as a problem where given array of size n find an element x where 
 // x is bad and x - 1 is not bad or x + 1 is bad a x is not bad 
-// Greedy approach - Iterate over all element from 1 to n to find 
+// Brute force approach - Iterate over all element from 1 to n to find 
 // The problem with this problem is that it frequently calls isBadVersion
 
 // Performance:
